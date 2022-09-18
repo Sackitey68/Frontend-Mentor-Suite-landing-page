@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+  /* Design colors Global CSS variables */
+:root{
+    --white: #FAF8F6;
+    --orange: #FFA84E;
+    --violet: #CB30E3;
+    --cream: #F3EDE7;
+    --light-blue: #A060FF;
+    --blue-black: #172339;
+    --light-blue-black: #49566D;
+}
+
+header{
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+}
+
+.header-button{
+  padding: 1rem;
+  font-size: 0.88rem;     /*converting 14px in mobile version to rem  */
+  letter-spacing: -0.14px;
+  line-height: 1.5rem;
+  font-weight: 700;
+  border-radius: 0.5rem;
+  color: var(--white); 
+  
+}
