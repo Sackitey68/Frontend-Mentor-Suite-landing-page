@@ -6,28 +6,77 @@
 
   /* Design colors Global CSS variables */
 :root{
-    --white: #FAF8F6;
+    --cream-white: #FAF8F6;
     --orange: #FFA84E;
     --violet: #CB30E3;
     --cream: #F3EDE7;
     --light-blue: #A060FF;
-    --blue-black: #172339;
+    --dark-blue: #172339;
     --light-blue-black: #49566D;
 }
 
+ body{
+  display: grid;
+  place-items: center;
+ }
+
+.web-container{
+  max-width: 468px;
+  margin: 1.5rem 1rem 0rem 1rem;
+}
 header{
   display: flex;
   justify-content: space-between;
-  align-content: center;
+  align-items: center;
 }
 
 .header-button{
   padding: 1rem;
-  font-size: 0.88rem;     /*converting 14px in mobile version to rem  */
+  font-size: 0.875rem;     /*converting 14px in mobile version to rem  */
+  color: var(--dark-blue);
   letter-spacing: -0.14px;
   line-height: 1.5rem;
   font-weight: 700;
-  border-radius: 0.5rem;
-  color: var(--white); 
+  border-radius: 0.5rem; 
+  background-color: var(--cream-white);
   
+}
+ /* check padding from figma */
+.marketing-button{
+  font-size: 1.125rem;
+  font-weight: 700;
+  line-height: 2rem;
+  letter-spacing: -0.18px;
+  color: var(--cream-white);
+  border-radius: 0.5rem;
+  background-color: var(--dark-blue);
+  padding: 1rem;
+}
+
+main{
+  margin-top: 3.5rem;
+}
+
+.business-mission{
+font-size: 38px;
+/* line-height: 44px;
+letter-spacing: -0.5277777910232544px; */
+color: var(--dark-blue);
+}
+
+bold{
+  font-weight: 700;
+}
+
+span{
+  font-weight: 400;
+}
+
+.curved-line{
+  margin-left: 170px;
+  width: 151px;
+}
+
+.curve{
+  width: 100%;
 }
