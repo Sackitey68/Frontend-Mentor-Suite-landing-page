@@ -12,7 +12,7 @@
     --cream: #F3EDE7;
     --light-blue: #A060FF;
     --dark-blue: #172339;
-    --light-blue-black: #49566D;
+    --grey: #49566D;
 }
 
  body{
@@ -39,18 +39,6 @@ header{
   font-weight: 700;
   border-radius: 0.5rem; 
   background-color: var(--cream-white);
-  
-}
- /* check padding from figma */
-.marketing-button{
-  font-size: 1.125rem;
-  font-weight: 700;
-  line-height: 2rem;
-  letter-spacing: -0.18px;
-  color: var(--cream-white);
-  border-radius: 0.5rem;
-  background-color: var(--dark-blue);
-  padding: 1rem;
 }
 
 main{
@@ -64,7 +52,7 @@ letter-spacing: -0.5277777910232544px; */
 color: var(--dark-blue);
 }
 
-bold{
+.bold-text{
   font-weight: 700;
 }
 
@@ -72,11 +60,217 @@ span{
   font-weight: 400;
 }
 
-.curved-line{
-  margin-left: 170px;
+.curved-line-1{
+  margin-left: 220px;
   width: 151px;
 }
 
-.curve{
+.actual-curve{
   width: 100%;
 }
+
+
+.marketing-sales{
+font-size: 20px;
+font-weight: 400;
+line-height: 28px;
+letter-spacing: 0.08888889104127884px;
+text-align: left;
+color: var(--dark-blue);
+margin: 2rem auto;
+}
+
+/* check padding from figma */
+.marketing-button{
+  font-size: 1.125rem;
+  font-weight: 700;
+  line-height: 2rem;
+  letter-spacing: -0.18px;
+  color: var(--cream-white);
+  border-radius: 0.5rem;
+  background-color: var(--dark-blue);
+  padding: 1rem;
+}
+
+.hero-image{
+  margin: 3rem auto;
+}
+ 
+/* glow width of image */
+.hero-image-container{
+ width: 100%;
+ height: auto;
+}
+
+.tablet-image-container{
+ display: none;
+}
+
+.desktop-image-container{
+ display: none;
+}
+
+.business-statistics{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  height: 19rem;
+  margin: 3rem auto;
+}
+
+.figures{
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 56px; 
+}
+
+.description{
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 2.5px;
+  color: var(--grey);
+  text-transform: uppercase;
+  
+}
+
+.space{
+  height: 11rem;
+}
+
+.comment{
+position: relative;
+background-color: var(--dark-blue);
+color: var(--cream-white);
+border-radius: 0.5rem;
+}
+
+.comment-content{
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+}
+
+.jeremy-image-container{
+  width: 65%;
+  position: absolute;
+  left: 4.5rem;
+  top: -8rem;
+}
+
+.pattern-blur{
+ margin:  0 auto;
+ width: 70%;
+ text-align: center;
+ margin-bottom: 1rem;
+}
+
+.curved-line-2{
+ width: 15%;
+ margin-bottom: 2rem;
+}
+
+.desktop-comment-2{
+ text-align: center;
+}
+
+.comment-title{
+font-size: 32px;
+letter-spacing: -0.2px;
+}
+
+.comment-msg{
+ margin-bottom: 2rem;
+ font-size: 18px;
+ line-height: 35px;
+ margin: 2rem auto;
+ text-align: center;
+ padding-inline: 1.5rem;
+}
+
+.commentator-name{
+  margin-bottom: 3rem;
+  text-align: center;
+  line-height: 32px;
+}
+
+.bold-name{
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 18px;
+}
+.address{
+  text-transform: uppercase;
+  font-weight: 400;
+}
+
+footer{
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: space-between;
+ padding: 4rem;
+ height: 17rem;
+ background-color: var(--cream);
+ color: var(--dark-blue);
+}
+
+.footer-logo{
+  width: 30%;
+}
+
+.copy-right{
+ text-transform: capitalize;
+ color: var(--grey);
+}
+ 
+.social-media ul{
+  width: 7rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+}
+
+/* tablet view */
+@media screen and (min-width: 600px)
+{
+  .container{
+    min-width: 600px;
+    margin-bottom: 0;
+}
+  button{
+    padding: 1.2rem 1.8rem;
+  }
+  .tablet{
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+  }
+  .business-profile{
+    height: min-content;
+    position: relative;
+    top: 4rem;
+  }
+  .main-header{
+    position: absolute;
+    width: 31rem;
+    top: -8.5rem;
+  }
+  .
+
+}
+
+/* Desktop view */
+@media screen and (min-width: 1024px)
+{
+  
+  
+
+
+}
+
+
