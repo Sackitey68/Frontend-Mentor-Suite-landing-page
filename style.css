@@ -26,7 +26,7 @@
  {
   width: 430px;
   position: absolute;
-  height: 2577px;
+  height: 2450px;
   top: 0;
   background-color: var(--cream-white);
   z-index: -1;
@@ -61,7 +61,7 @@ main{
 }
 
 .business-mission{
-font-size: 2.375rem;  /* converted 38px to rem */
+font-size: 2.475rem;  /* converted 38px to rem */
 line-height: 44px;
 letter-spacing: -0.528px;
 color: var(--dark-blue);
@@ -90,9 +90,8 @@ font-size: 1rem;
 font-weight: 400;
 line-height: 28px;
 letter-spacing: 0.09px;
-text-align: left;
-color: var(--dark-blue);
-margin: 2rem 0.3rem;
+color: var(--grey);
+margin: 2rem auto;
 }
 
 /*styling the second button*/
@@ -111,12 +110,15 @@ margin: 2rem 0.3rem;
   margin: 3.48rem auto;
 }
  
-/* glow width of image */
-.hero-image-container{
+.mobile-image-container{
  width: 100%;
  height: auto;
 }
 
+.hero-mobile-image{
+  width: 100%;
+}
+  
 .tablet-image-container{
  display: none;
 }
@@ -131,18 +133,20 @@ margin: 2rem 0.3rem;
   justify-content: space-between;
   align-items: center;
   text-align: center;
-  height: 19rem;
-  margin: 3rem auto;
+  height: 19.56rem;
+  margin: 3.5rem auto;
 }
 
 .figures{
-  font-size: 48px;
+  font-size: 3rem;
   font-weight: 700;
   line-height: 56px; 
+  color: var(--dark-blue);
+  text-align: center;
 }
 
 .description{
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 400;
   line-height: 26px;
   letter-spacing: 2.5px;
@@ -151,16 +155,15 @@ margin: 2rem 0.3rem;
   
 }
 
-.space{
-  height: 11rem;
-}
-
-.comment{
+.comment-section{
+margin-top: 15rem;
 position: relative;
+right: 25px;
 background-color: var(--dark-blue);
 color: var(--cream-white);
-border-radius: 0.5rem;
-
+border-radius: 1rem;
+width: 114%;
+height: 46.75rem;
 }
 
 .comment-content{
@@ -173,38 +176,54 @@ border-radius: 0.5rem;
 .jeremy-image-container{
   width: 65%;
   position: absolute;
-  left: 4.5rem;
-  top: -8rem;
+  left: 6rem;
+  top: -10.9rem;
+  z-index: 2;
 }
 
 .pattern-blur{
  margin:  0 auto;
  width: 70%;
  text-align: center;
- margin-bottom: 1rem;
 }
 
-.curved-line-2{
+.blur-img{
+  position: relative;
+  bottom: 10rem;
+  right: 4rem;
+  opacity: 0.2;
+  
+}
+
+.line-2{
  width: 15%;
- margin-bottom: 2rem;
+ position:absolute;
+ top: 280px;
+ left: 180px;
 }
 
 .desktop-comment-2{
  text-align: center;
+  position: relative;
+  top: -200px;   /* check this side */ */
 }
 
 .comment-title{
-font-size: 32px;
-letter-spacing: -0.2px;
+font-size: 2.5rem;
+letter-spacing: -0.42px;
+color: var(--cream-white);
+margin-top: 2.3rem;
 }
 
 .comment-msg{
  margin-bottom: 2rem;
  font-size: 18px;
+ font-weight: 400;
+ letter-spacing: 0.09px;
  line-height: 35px;
  margin: 2rem auto;
  text-align: center;
- padding-inline: 1.5rem;
+ padding: 1rem;
 }
 
 .commentator-name{
@@ -217,10 +236,19 @@ letter-spacing: -0.2px;
   text-transform: uppercase;
   font-weight: 700;
   font-size: 18px;
+  color: var(--cream);
+  line-height: 32px;
+  letter-spacing: -0.18px;
+  text-align: center;
+
 }
 .address{
   text-transform: uppercase;
   font-weight: 400;
+  color: var(--cream);
+  font-size: 1rem;
+  letter-spacing: 2.5px;
+  line-height: 26px;
 }
 
 footer{
@@ -229,7 +257,12 @@ footer{
  align-items: center;
  justify-content: space-between;
  padding: 4rem;
- height: 17rem;
+ height: 20rem;
+ width: 114%;
+ position: relative;
+ right: 25px;
+ top: -10px;
+ z-index: -1;
  background-color: var(--cream);
  color: var(--dark-blue);
 }
@@ -241,6 +274,10 @@ footer{
 .copy-right{
  text-transform: capitalize;
  color: var(--grey);
+ font-weight: 400;
+ font-size: 0.94rem;
+ line-height: 32px;
+ letter-spacing: 0.08px;
 }
  
 .social-media ul{
