@@ -18,19 +18,23 @@
  body{
   display: grid;
   place-items: center;
+  font-family: 'Epilogue', sans-serif;
  }
 
- /* .background for mobile */
- /* .background
+ /* .background for mobile view */
+ .background
  {
-  width: 900px;
+  width: 430px;
   position: absolute;
-  height: 2060px;
-  {
-   */
-
+  height: 2577px;
+  top: 0;
+  background-color: var(--cream-white);
+  z-index: -1;
+ }
+  
+ /* from figma */
 .web-container{
-  max-width: 400px;
+  max-width: 375px;   
   margin: 1.5rem 1rem 0rem 1rem;
  
 }
@@ -40,9 +44,10 @@ header{
   align-items: center;
 }
 
+/* styling the header button */
 .header-button{
-  padding: 1rem;
-  font-size: 0.875rem;     /*converting 14px in mobile version to rem  */
+  padding: 0.75rem 1.03rem 0.75rem 0.97rem;
+  font-size: 0.875rem;     /*converted 14px in mobile version to rem  */
   color: var(--dark-blue);
   letter-spacing: -0.14px;
   line-height: 1.5rem;
@@ -52,13 +57,13 @@ header{
 }
 
 main{
-  margin-top: 3.5rem;
+  margin-top: 3.63rem;
 }
 
 .business-mission{
-font-size: 38px;
-/* line-height: 44px;
-letter-spacing: -0.5277777910232544px; */
+font-size: 2.375rem;  /* converted 38px to rem */
+line-height: 44px;
+letter-spacing: -0.528px;
 color: var(--dark-blue);
 }
 
@@ -71,8 +76,8 @@ span{
 }
 
 .curved-line-1{
-  margin-left: 220px;
-  width: 151px;
+  margin-left: 11.87rem;
+  width: 151.47px;
 }
 
 .actual-curve{
@@ -81,16 +86,16 @@ span{
 
 
 .marketing-sales{
-font-size: 20px;
+font-size: 1rem;
 font-weight: 400;
 line-height: 28px;
-letter-spacing: 0.08888889104127884px;
+letter-spacing: 0.09px;
 text-align: left;
 color: var(--dark-blue);
-margin: 2rem auto;
+margin: 2rem 0.3rem;
 }
 
-/* check padding from figma */
+/*styling the second button*/
 .marketing-button{
   font-size: 1.125rem;
   font-weight: 700;
@@ -99,11 +104,11 @@ margin: 2rem auto;
   color: var(--cream-white);
   border-radius: 0.5rem;
   background-color: var(--dark-blue);
-  padding: 1rem;
+  padding: 0.94rem 1.94rem 0.88rem 2rem;
 }
 
 .hero-image{
-  margin: 3rem auto;
+  margin: 3.48rem auto;
 }
  
 /* glow width of image */
@@ -246,10 +251,14 @@ footer{
   list-style: none;
 }
 
+.facebook:hover,.twitter:hover, .instagram:hover{
+  opacity: 0.5;
+
+}
 /* media query for tablet view */
 @media screen and (min-width: 600px)
 {
-  .container{
+  .web-container{
     min-width: 600px;
     margin-bottom: 0;
 }
@@ -283,7 +292,7 @@ footer{
   .hero-mobile-image{
     display: none;
   }
-  .hero-tablet-image{
+  .tablet-image-container{
     display: block;
     width: 16rem;
   }
@@ -326,9 +335,92 @@ footer{
 /* media query for Desktop view */
 @media screen and (min-width: 1024px)
 {
+
+   /* check again from figma  */
+   .background{
+    background-color: var(--cream-white);
+    width: 1440px;
+    height: 1502px;
+    position: absolute;
+    top: 0px;
+
+
+  }
+
+  .web-container{
+    min-width: 900px;
+  }
+ 
+  .header-button:hover{
+    background-color: var(--dark-blue);
+    color: var(--cream-white);
+  }
+
+  .desktop{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .main-header{
+    width: 38rem;
+    top: 12rem;
+  }
   
+  .curved-line-1{
+    margin-left: 17rem;
+    width: 275px;
+  }
+
+  .business-mission{
+    font-size: 72px;
+  }
   
 
+  .tablet-image-container{
+    width: 20rem;
+
+  }
+
+  .business-statistics{
+    flex-direction: column;
+    margin: 0.4rem;
+    justify-content: space-evenly;
+  }
+
+  .space{
+    height: 2rem;
+  }
+
+  .desktop-comment-2{
+  text-align: left;
+  height: 430px;
+  padding: 4rem 4rem 0 2rem;
+  }
+
+  .comment-msg{
+    text-align: left;
+    padding-left: 0;
+  }
+
+  .commentator-name{
+    text-align: left;
+  }
+
+  .comment-content{
+    flex-direction: row;
+  }
+
+  .jeremy-image-container{
+    top: -1.25rem;
+    left: 5.5rem;
+    width: 17.5rem;
+  }
+  
+  .pattern-blur{
+    width: 26rem;
+    padding: 3rem;
+    padding-left: 3rem;
+  }
 
 }
 
