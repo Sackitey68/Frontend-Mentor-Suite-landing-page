@@ -447,8 +447,6 @@ footer{
 /* media query for Desktop view */
 @media screen and (min-width: 1024px)
 {
-
-   /* check again from figma  */
    .background{
     background-color: var(--cream-white);
     width: 1440px;
@@ -458,22 +456,26 @@ footer{
   }
 
   .web-container{
-    min-width: 900px;
-  }
- 
-  .header-button:hover{
-    background-color: var(--dark-blue);
-    color: var(--cream-white);
+    min-width: 1024px;
+    margin-top: 40px;
   }
 
   .desktop{
     display: flex;
     justify-content: space-between;
   }
+  .header-button{
+    position: relative;
+    left: 100px;
+  }
+  .header-button:hover{
+    background-color: var(--dark-blue);
+    color: var(--cream-white);
+  }
 
   .main-header{
     width: 38rem;
-    top: -12rem;
+    top: 12rem;
   }
   
   .curved-line-1{
@@ -483,12 +485,37 @@ footer{
 
   .business-mission{
     font-size: 72px;
+    letter-spacing: -1px;
+    line-height: 78px;
+    width: 40rem;
   }
-  
+
+  .marketing-sales{
+   margin-left: 0px;
+   font-size: 1rem;
+   line-height: 32px;
+   letter-spacing: 0.1px;
+  }
+
+  .marketing-button:hover{
+      background: linear-gradient(160deg, 
+      var(--violet) 60%,
+      var(--orange));
+  }
 
   .tablet-image-container{
-    width: 20rem;
+    display: none;
+  }
 
+  .desktop-image-container{
+    display: block;
+  }
+  .hero-desktop-image{
+    width: 350px;
+    height: 550px;
+    position: relative;
+    right: 165px;
+    z-index: -1;
   }
 
   .business-statistics{
@@ -497,9 +524,7 @@ footer{
     justify-content: space-evenly;
   }
 
-  .space{
-    height: 2rem;
-  }
+  
 
   .desktop-comment-2{
   text-align: left;
