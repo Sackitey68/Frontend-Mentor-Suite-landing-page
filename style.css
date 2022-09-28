@@ -298,6 +298,7 @@ footer{
   .web-container{
     min-width: 700px;
     margin-bottom: 0;
+    height: 124rem;
 }
   .header-button{
     padding: 0.75rem 1.53rem 0.75rem 1.47rem;
@@ -307,6 +308,8 @@ footer{
     display: flex;
     margin: 0 auto;
     align-items: center;
+    position: relative;
+    bottom: 30px;
 
   }
   .business-profile{
@@ -344,6 +347,10 @@ footer{
   .marketing-button{
     position: relative;
     bottom: 150px;
+    font-size: 18px;
+    line-height: 32px;
+    letter-spacing: -0.18px;
+     padding: 15px 31px 14px 32px;
   }
 
   .hero-mobile-image{
@@ -355,7 +362,6 @@ footer{
     position: relative;
     right: 105px;
     z-index: -1;
-   
   }
 
   .hero-tablet-image{
@@ -366,6 +372,7 @@ footer{
     height: auto;
     flex-direction: row;
     justify-content: space-around;
+    margin-top: 5px;
   }
   
   .comment-section{
@@ -378,24 +385,59 @@ footer{
     width: 54%;
     left: 15rem;
   }
+
+  .blur-img{
+    opacity: 0.5;
+  }
+
+  .line-2{
+    margin-left: 150px;
+    width: 49.27px;
+  }
   .comment-title{
     font-size: 40px;
+    line-height: 48px;
+    letter-spacing: -0.42px;
+  }
+
+  .comment-msg{
+    font-size: 18px;
+    line-height: 32px;
+    letter-spacing: 0.09px;
+    margin-left: 58px;
+    margin-right: 58px;
+
   }
   footer{
     flex-direction: row;
     justify-content: space-between;
     padding: 0;
     margin: 0;
-    height: 12rem;
+    height: 720px;
+    width: 768px;
+    position: relative;
+    right: 35px;
+    top: -32.8rem;
   }
   .footer-logo{
     width: 85px;
+    margin-left: 38px;
+    margin-top: 550px;
   }
 
+  .social-media ul{
+    margin-right: 31px;
+    margin-top: 550px;
+  }
+  
+  .copy-right{
+    margin-top: 550px;
+  }
+ 
   .background{
-    width: 900px;
+    width: 768px;
     position: absolute;
-    height: 2060px;
+    height: 2000px;
     top: 0; 
     z-index: -1;
     background-color: var(--cream-white);
@@ -491,5 +533,3 @@ footer{
   }
 
 }
-
-
