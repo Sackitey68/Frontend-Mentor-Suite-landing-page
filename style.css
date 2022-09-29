@@ -152,7 +152,6 @@ margin: 2rem auto;
   letter-spacing: 2.5px;
   color: var(--grey);
   text-transform: uppercase;
-  
 }
 
 .comment-section{
@@ -491,13 +490,15 @@ footer{
     letter-spacing: -1px;
     line-height: 78px;
     width: 40rem;
+
   }
 
   .marketing-sales{
    margin-left: 0px;
-   font-size: 1rem;
+   font-size: 1.125rem;
    line-height: 32px;
    letter-spacing: 0.1px;
+   width: 22.2rem;
   }
 
   .marketing-button:hover{
@@ -515,7 +516,7 @@ footer{
     display: block;
   }
   .hero-desktop-image{
-    width: 320px;
+    width: 330px;
     height: 550px;
     position: relative;
     right: 165px;
@@ -605,14 +606,14 @@ footer{
   footer{
     position: relative;
     top: -18rem;
-    width: 90rem;
+    width: 93.5rem;
     height: 29rem;
-    left: -13rem;
+    left: -16.4rem;
   }
 
  .footer-logo{
    margin-bottom: 16rem;
-   margin-left: 13.2rem;
+   margin-left: 16.6rem;
  }
  .copy-right{
   margin-right: 0rem;
