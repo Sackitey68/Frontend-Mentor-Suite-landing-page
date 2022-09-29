@@ -36,8 +36,9 @@
 .web-container{
   max-width: 375px;   
   margin: 1.5rem 1rem 0rem 1rem;
- 
+  height: 150rem;
 }
+
 header{
   display: flex;
   justify-content: space-between;
@@ -47,7 +48,7 @@ header{
 /* styling the header button */
 .header-button{
   padding: 0.75rem 1.03rem 0.75rem 0.97rem;
-  font-size: 0.875rem;     /*converted 14px in mobile version to rem  */
+  font-size: 0.875rem;     
   color: var(--dark-blue);
   letter-spacing: -0.14px;
   line-height: 1.5rem;
@@ -61,7 +62,7 @@ main{
 }
 
 .business-mission{
-font-size: 2.475rem;  /* converted 38px to rem */
+font-size: 2.475rem; 
 line-height: 44px;
 letter-spacing: -0.528px;
 color: var(--dark-blue);
@@ -292,6 +293,7 @@ footer{
   opacity: 0.5;
 
 }
+
 /* media query for tablet view */
 @media screen and (min-width: 700px)
 {
@@ -449,25 +451,30 @@ footer{
 {
    .background{
     background-color: var(--cream-white);
-    width: 1440px;
-    height: 1502px;
+    width: 94rem;
+    height: 99rem;
     position: absolute;
     top: 0px;
   }
-
+   
+  .body{
+    position: absolute;
+    left: 50rem;
+  }
   .web-container{
-    min-width: 1024px;
+    min-width: 1060px;
     margin-top: 40px;
+    margin-left: 7rem;
+    height: 96.8rem;
   }
 
   .desktop{
     display: flex;
     justify-content: space-between;
-  }
-  .header-button{
     position: relative;
-    left: 100px;
+    bottom: 10px;
   }
+  
   .header-button:hover{
     background-color: var(--dark-blue);
     color: var(--cream-white);
@@ -479,7 +486,7 @@ footer{
   }
   
   .curved-line-1{
-    margin-left: 17rem;
+    margin-left: 18.5rem;
     width: 275px;
   }
 
@@ -511,7 +518,7 @@ footer{
     display: block;
   }
   .hero-desktop-image{
-    width: 350px;
+    width: 320px;
     height: 550px;
     position: relative;
     right: 165px;
@@ -522,23 +529,45 @@ footer{
     flex-direction: column;
     margin: 0.4rem;
     justify-content: space-evenly;
+    position: relative;
+    right: 85px;
+    height: 30rem;
+    margin-top: 4rem; 
   }
 
+ .figures, .description{
+  text-align: left;
+ }
   
+ .comment-section{
+  margin-top: 4rem;
+  height: 33.5rem;
+ }
 
   .desktop-comment-2{
   text-align: left;
-  height: 430px;
+  height: 250px;
   padding: 4rem 4rem 0 2rem;
+  width: 35rem;
+  margin-left: 6.2rem;
+  margin-top: 5rem;
   }
+
+ .comment-title{
+  margin-left: 3.6rem;
+ }
 
   .comment-msg{
     text-align: left;
     padding-left: 0;
   }
-
+  
+  .bold-name{
+     text-align: left; 
+  }
   .commentator-name{
     text-align: left;
+    margin-left:  3.5rem;
   }
 
   .comment-content{
@@ -552,9 +581,48 @@ footer{
   }
   
   .pattern-blur{
-    width: 26rem;
-    padding: 3rem;
-    padding-left: 3rem;
+    width: 26rem; 
   }
 
+  .blur-img{
+    opacity: 1;
+    position: relative;
+    top: 7rem;
+    left: 0rem;
+  }
+   
+  .jeremy-img{
+    height: 35.7rem;
+    position: relative;
+    bottom: 1rem;
+    left: 2rem;
+  }
+
+  .line-2{
+    margin-left: 20rem;
+    width: 4.01rem;
+    position: absolute;
+    top: 10rem;
+  }
+
+  footer{
+    position: relative;
+    top: -18rem;
+    width: 90rem;
+    height: 29rem;
+    left: -13rem;
+  }
+
+ .footer-logo{
+   margin-bottom: 16rem;
+   margin-left: 13.2rem;
+ }
+ .copy-right{
+  margin-right: 0rem;
+  margin-bottom: 16rem;
+ }
+ .social-media{
+  margin-bottom: 16rem;
+  margin-right: 8.9rem;
+ }
 }
