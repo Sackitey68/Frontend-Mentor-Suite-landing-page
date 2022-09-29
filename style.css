@@ -289,11 +289,6 @@ footer{
   list-style: none;
 }
 
-.facebook:hover,.twitter:hover,.instagram:hover{
-  opacity: 0.5;
-
-}
-
 /* media query for tablet view */
 @media screen and (min-width: 700px)
 {
@@ -478,6 +473,7 @@ footer{
   .header-button:hover{
     background-color: var(--dark-blue);
     color: var(--cream-white);
+    cursor: pointer;
   }
 
   .main-header{
@@ -508,6 +504,7 @@ footer{
       background: linear-gradient(160deg, 
       var(--violet) 60%,
       var(--orange));
+      cursor: pointer;
   }
 
   .tablet-image-container{
@@ -625,4 +622,7 @@ footer{
   margin-bottom: 16rem;
   margin-right: 8.9rem;
  }
+
+ .facebook:hover,.twitter:hover,.instagram:hover{
+  opacity: 0.5;
 }
