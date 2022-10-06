@@ -469,6 +469,7 @@ footer{
     bottom: 10px;
   }
   
+  
   .header-button:hover{
     background-color: var(--dark-blue);
     color: var(--cream-white);
@@ -499,6 +500,7 @@ footer{
    line-height: 32px;
    letter-spacing: 0.1px;
    width: 22.2rem;
+   border: none;
   }
 
   .marketing-button:hover{
@@ -506,6 +508,7 @@ footer{
       var(--violet) 60%,
       var(--orange));
       cursor: pointer;
+      border: none;
   }
 
   .tablet-image-container{
