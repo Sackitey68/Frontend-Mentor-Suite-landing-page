@@ -438,7 +438,7 @@ footer{
     z-index: -1;
     background-color: var(--cream-white);
   }
-
+}
 
 /* media query for Desktop view */
 @media screen and (min-width: 1024px)
@@ -626,6 +626,6 @@ footer{
 
  .facebook:hover,.twitter:hover,.instagram:hover{
   opacity: 0.5;
-
  }
 }
+
